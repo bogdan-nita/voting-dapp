@@ -1,0 +1,202 @@
+{
+  "ganacheUI": {
+    "networkName": "ganacheUI",
+    "networkLocation": {
+      "host": "127.0.0.1",
+      "port": 7545,
+      "network_id": "5777"
+    },
+    "contractName": "Migrations",
+    "abi": [
+      {
+        "inputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "constructor",
+        "signature": "constructor"
+      },
+      {
+        "constant": false,
+        "inputs": [],
+        "name": "kill",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "signature": "0x41c0e1b5"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "last_completed_migration",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function",
+        "signature": "0x445df0ac"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "owner",
+        "outputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function",
+        "signature": "0x8da5cb5b"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "completed",
+            "type": "uint256"
+          }
+        ],
+        "name": "setCompleted",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "signature": "0xfdacd576"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "new_address",
+            "type": "address"
+          }
+        ],
+        "name": "upgrade",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "signature": "0x0900f010"
+      }
+    ],
+    "compiler": {
+      "name": "solc",
+      "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+    },
+    "schemaVersion": "3.4.0",
+    "updatedAt": "2021-04-25T18:22:33.785Z",
+    "address": "0x942E33bB3e793895aC6A2AC7330978a8372FD451",
+    "network_id": "5777"
+  },
+  "development": {
+    "networkName": "development",
+    "networkLocation": {
+      "host": "127.0.0.1",
+      "port": 8545,
+      "network_id": "1619371272883"
+    },
+    "contractName": "Migrations",
+    "abi": [
+      {
+        "inputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "constructor",
+        "signature": "constructor"
+      },
+      {
+        "constant": false,
+        "inputs": [],
+        "name": "kill",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "signature": "0x41c0e1b5"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "last_completed_migration",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function",
+        "signature": "0x445df0ac"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "owner",
+        "outputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function",
+        "signature": "0x8da5cb5b"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "completed",
+            "type": "uint256"
+          }
+        ],
+        "name": "setCompleted",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "signature": "0xfdacd576"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "new_address",
+            "type": "address"
+          }
+        ],
+        "name": "upgrade",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "signature": "0x0900f010"
+      }
+    ],
+    "compiler": {
+      "name": "solc",
+      "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+    },
+    "schemaVersion": "3.4.0",
+    "updatedAt": "2021-04-25T17:41:47.590Z",
+    "address": "0x8aD93E0b1e9cDf908D7F4D85a1e3198493406F12",
+    "network_id": "1619371272883"
+  }
+}
